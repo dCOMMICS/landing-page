@@ -117,6 +117,10 @@ https://www.joshwcomeau.com/css/custom-css-reset/
 
   --ff-body: var(--ff-primary);
   --ff-headings: var(--ff-primary);
+
+  --fw-regular: 300;
+  --fw-semibold: 500;
+  --fw-bold: 300;
 }
 
 /* Box sizing rules */
