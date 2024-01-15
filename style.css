@@ -101,7 +101,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
 
 
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;700&family=Oswald:wght@400;600;700&display=swap');
 
 :root {
   --clr-primary-400: hsl(12,88%,59%);
@@ -112,6 +112,11 @@ https://www.joshwcomeau.com/css/custom-css-reset/
 
   --clr-neutral-100:hsl(232,12%,13%);
   --clr-neutral-900:hsl(0 0%,0%);
+
+  --ff-primary:'Be Vietnam Pro', sans-serif;
+
+  --ff-body: var(--ff-primary);
+  --ff-headings: var(--ff-primary);
 }
 
 /* Box sizing rules */
