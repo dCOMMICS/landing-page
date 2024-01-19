@@ -185,6 +185,7 @@ select {
    scroll-behavior: auto;
   }
   
+  
   *,
   *::before,
   *::after {
