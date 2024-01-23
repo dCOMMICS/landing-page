@@ -2,10 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/form/css/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>form validation</title>
 </head>
 <body>
-    
+    <div class="container">
+        <form id="signup" class="form">
+            <h1>sign up</h1>
+            <div class="form-field">
+                <label for="username">username:</label>
+                <input type="text" name="username" id="username" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="email">email:</label>
+                <input type="text" name="email" id="email" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="password">password:</label>
+                <input type="password" name="password" id="password" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="confirm-password">confirm-password:</label>
+                <input type="password" name="confirm-password" id="username" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-filed">
+                <input type="submit" value="sign-up">
+            </div>
+        </form>
+    </div>
+    <script src="/form/js/app.js"></script>
 </body>
 </html>
