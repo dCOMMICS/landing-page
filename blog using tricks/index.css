@@ -23,6 +23,11 @@ body {
     width: 100%;
     height: auto;
 }
+.banner{
+  image-rendering: pixelated;
+  object-fit: cover;
+  width: 100%;
+}
 
 .stupidthings{
   container-type: inline-size;
